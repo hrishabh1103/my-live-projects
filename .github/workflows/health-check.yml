@@ -1,0 +1,56 @@
+name: Projects Health Check
+
+on:
+  schedule:
+    # Run every Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check-health:
+    name: Verify Live Deployments
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ping Live Deployments
+        run: |
+          echo "## 🌐 Live Projects Health Report" >> $GITHUB_STEP_SUMMARY
+          echo "| Project | URL | Status Code | Result |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :---: | :---: |" >> $GITHUB_STEP_SUMMARY
+
+          urls=(
+            "Dr. Vishal Clinic|https://dr-vishal-clinic.hrishabhbase.workers.dev/"
+            "Traviyaa|https://traviyaa.vercel.app/"
+            "Personal Portfolio|https://hrishabhgupt.vercel.app/"
+            "SavingsKaro|https://savingskaro.vercel.app/"
+            "Genius AI Assistant|https://minor-project02-genius-ai-assistant-lake.vercel.app/"
+            "Career-Ops|https://career-ops.org/"
+            "Kautilyam|https://kautilyam.vercel.app/"
+            "Kisan Mitra|https://kissanmitraa.vercel.app/"
+            "SocketComm AI Chat|https://socketcommaichat.vercel.app/"
+            "Hrishabh Blog|https://hrishabhblog.vercel.app/"
+            "Magnet Brains Task|https://magnet-brains-mern-task1.vercel.app/"
+          )
+
+          failures=0
+
+          for item in "${urls[@]}"; do
+            IFS="|" read -r name url <<< "$item"
+            status=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 15 "$url" || echo "000")
+            if [ "$status" -ge 200 ] && [ "$status" -lt 400 ]; then
+              result="🟢 Healthy"
+            else
+              result="🔴 Failing"
+              failures=$((failures + 1))
+            fi
+            echo "| **$name** | $url | \`$status\` | $result |" >> $GITHUB_STEP_SUMMARY
+          done
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ $failures -gt 0 ]; then
+            echo "⚠️ Found $failures project(s) with unexpected response codes." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ All live project endpoints returned healthy status codes." >> $GITHUB_STEP_SUMMARY
+          fi
