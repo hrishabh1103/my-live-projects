@@ -14,7 +14,7 @@
 | **Live Deployment URL** | [https://nostalgiasite.vercel.app/](https://nostalgiasite.vercel.app/) |
 | **GitHub Repository** | [hrishabh1103/Nostalgia_site](https://github.com/hrishabh1103/Nostalgia_site) |
 | **Hosting Platform** | Vercel |
-| **Last Verified Date** | 2026-07-14 |
+| **Last Verified Date** | 2026-07-15 |
 
 ---
 
@@ -27,13 +27,13 @@ Nostalgia is a digital memory-preservation platform designed to help users captu
 The platform focuses on creating an engaging and emotionally appealing experience, allowing users to relive their past while keeping their memories organized and accessible.
 2. System Architecture
 The application follows a modular, client-server architecture consisting of the following layers:
-Layer Description
-Frontend Layer Provides an interactive and responsive user interface for exploring, creating, editing, and managing memories.
-Backend Layer Handles application logic, user requests, memory management, and communication between frontend and database.
-Authentication Layer Manages user registration, login, session handling, and secure access to personal memories.
-Database Layer Stores user profiles, memory details, descriptions, timestamps, categories, and associated metadata.
-Media Storage Layer Manages uploaded photographs and other multimedia content.
-Presentation Layer Displays memories through organized galleries, timelines, cards, and personalized views.
+Layer	Description
+Frontend Layer	Provides an interactive and responsive user interface for exploring, creating, editing, and managing memories.
+Backend Layer	Handles application logic, user requests, memory management, and communication between frontend and database.
+Authentication Layer	Manages user registration, login, session handling, and secure access to personal memories.
+Database Layer	Stores user profiles, memory details, descriptions, timestamps, categories, and associated metadata.
+Media Storage Layer	Manages uploaded photographs and other multimedia content.
+Presentation Layer	Displays memories through organized galleries, timelines, cards, and personalized views.
 
 
 3. Core Modules
@@ -72,15 +72,15 @@ Presentation Layer Displays memories through organized galleries, timelines, car
 8. Users can revisit, search, update, or delete their memories.
 5. Technology Architecture
 The exact technology stack depends on the implementation. A typical architecture could use:
-Component Suggested Technology
-Frontend React.js
-Styling CSS / Tailwind CSS
-Backend Python Flask / Node.js
-Database Supabase / MongoDB
-Authentication Supabase Auth / JWT
-Media Storage Supabase Storage
-Version Control Git & GitHub
-Deployment Vercel / Netlify
+Component	Suggested Technology
+Frontend	React.js
+Styling	CSS / Tailwind CSS
+Backend	Python Flask / Node.js
+Database	Supabase / MongoDB
+Authentication	Supabase Auth / JWT
+Media Storage	Supabase Storage
+Version Control	Git & GitHub
+Deployment	Vercel / Netlify
 
 
 6. Key Features & Benefits
@@ -114,7 +114,7 @@ Project Objective: To transform ordinary digital storage into a meaningful exper
 - **Primary Database:** ChromaDB
 
 ### Third-Party APIs & Integrations
-- **Services & Models:** Vosk STT, OpenRouter
+- **Services & Models:** Vosk STT, Gemini API
 
 ---
 
@@ -142,7 +142,7 @@ Project Objective: To transform ordinary digital storage into a meaningful exper
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2026-07-14 | 🟢 Live | 200 OK | Health verified via ProjectVault deployment monitor. |
+| 2026-07-15 | 🟢 Live | 200 OK | Health verified via ProjectVault deployment monitor. |
 
 ---
 
