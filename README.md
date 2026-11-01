@@ -29,9 +29,9 @@ This repository acts as the **single source of truth** for all my production URL
 
 | Metric | Status / Count |
 | :--- | :---: |
-| **Total Projects Documented** | `14` |
+| **Total Projects Documented** | `15` |
 | **🟢 Verified Live Deployments** | `11` |
-| **🛠️ In Active Development / Local Demos** | `3` |
+| **🛠️ In Active Development / Local Demos** | `4` |
 | **🟡 Pending Verification** | `0` |
 | **Edge & Cloud Providers** | `Cloudflare Workers`, `Vercel`, `Custom Domain`, `Render`, `Cloud Run` |
 | **Database Engines** | `Supabase (PostgreSQL)`, `ChromaDB Vector Store`, `SQLite` |
@@ -76,6 +76,7 @@ Proprietary platforms, startup products, and professional portals.
 | **[Kautilyam / Zylar](projects/personal-projects/kautilyam.md)**<br><sub>Autonomous AI Cyber Defense & SOC Investigation Agent leveraging LangGraph and NetworkX.</sub> | [🔗 kautilyam.vercel.app](https://kautilyam.vercel.app) | [📂 `Kautilyam`](https://github.com/hrishabh1103/Kautilyam) | **Vercel** | React, TypeScript, TailwindCSS, Python | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) | `2026-11-01` |
 | **[Kisan Mitra](projects/personal-projects/kissan-mitra.md)**<br><sub>Agri-Tech advisory portal providing localized crop diagnosis, market trends, and farmer assistance.</sub> | [🔗 kissanmitraa.vercel.app](https://kissanmitraa.vercel.app) | [📂 `Kissan_Mitra`](https://github.com/hrishabh1103/Kissan_Mitra) | **Vercel** | React, TypeScript, TailwindCSS, Vite | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) | `2026-11-01` |
 | **[Hrishabh's Blog](projects/personal-projects/hrishabh-blog.md)**<br><sub>Technical engineering publication covering system architecture, full-stack development, and AI engineering.</sub> | [🔗 hrishabhblog.vercel.app](https://hrishabhblog.vercel.app) | [📂 `Hrishabh_Blog_site`](https://github.com/hrishabh1103/Hrishabh_Blog_site) | **Vercel** | Next.js, MDX, TailwindCSS, TypeScript | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) | `2026-11-01` |
+| **[PQ_Migration Platform](projects/personal-projects/pq-migration-platform.md)**<br><sub>An enterprise-grade cryptographic discovery, inventory normalization, cross-cloud correlation, PQC risk assessment, and Cryptographic Bill of Materials (CBOM) generation platform supporting AWS, Azure, Kubernetes, Linux, Network Endpoints (TLS/SSH), and Application Source Code.</sub> | *Pending Cloud Deployment* | [📂 `PQ_Migration`](https://github.com/hrishabh1103/PQ_Migration) | **Pending** | TypeScript, Tailwind CSS, React, HTML5 | ![In Dev](https://img.shields.io/badge/Status-In%20Development-blue?style=flat-square) | `2026-11-01` |
 
 ---
 
