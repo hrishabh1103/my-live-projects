@@ -8,8 +8,8 @@ Welcome to the central project registry of **Hrishabh Gupta** ([@hrishabh1103](h
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Projects Documented** | 13 |
-| **🟢 Live & Verified Deployments** | 10 |
+| **Total Projects Documented** | 14 |
+| **🟢 Live & Verified Deployments** | 11 |
 | **🟡 Needs Verification** | 0 |
 | **🛠️ In Development / Local Demo** | 3 |
 | **Primary Cloud Hosts** | Vercel, Cloudflare Workers, Custom Domain, Render, Cloud Run |
