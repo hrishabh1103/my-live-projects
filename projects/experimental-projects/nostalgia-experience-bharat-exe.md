@@ -13,7 +13,7 @@
 | **Current Status** | 🟢 Live |
 | **Live Deployment URL** | [https://nostalgiasite.vercel.app/](https://nostalgiasite.vercel.app/) |
 | **GitHub Repository** | [hrishabh1103/Nostalgia_site](https://github.com/hrishabh1103/Nostalgia_site) |
-| **Hosting Platform** | Cloudflare Workers |
+| **Hosting Platform** | Vercel |
 | **Last Verified Date** | 2026-07-14 |
 
 ---
@@ -124,7 +124,7 @@ Project Objective: To transform ordinary digital storage into a meaningful exper
 [User Browser]
        │
        ▼
-[Edge CDN / Host (Cloudflare Workers)]
+[Edge CDN / Host (Vercel)]
        │
        ▼
 [Application Runtime]
@@ -133,7 +133,7 @@ Project Objective: To transform ordinary digital storage into a meaningful exper
 [Database / External APIs (ChromaDB)]
 ```
 
-- **Hosting Platform:** Cloudflare Workers
+- **Hosting Platform:** Vercel
 - **Custom Domain:** None
 
 ---

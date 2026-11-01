@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/hrishabh1103"><img src="https://img.shields.io/badge/Architect-Hrishabh%20Gupta-blue?style=for-the-badge&logo=github" alt="Architect" /></a>
   <a href="https://hrishabhgupt.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-hrishabhgupt.vercel.app-success?style=for-the-badge&logo=vercel" alt="Portfolio" /></a>
-  <img src="https://img.shields.io/badge/Verified%20Deployments-10%20Live-brightgreen?style=for-the-badge" alt="Verified Deployments" />
+  <img src="https://img.shields.io/badge/Verified%20Deployments-11%20Live-brightgreen?style=for-the-badge" alt="Verified Deployments" />
   <img src="https://img.shields.io/badge/Last%20Audit-2026-11-01-orange?style=for-the-badge" alt="Last Audit" />
 </p>
 
@@ -29,8 +29,8 @@ This repository acts as the **single source of truth** for all my production URL
 
 | Metric | Status / Count |
 | :--- | :---: |
-| **Total Projects Documented** | `13` |
-| **🟢 Verified Live Deployments** | `10` |
+| **Total Projects Documented** | `14` |
+| **🟢 Verified Live Deployments** | `11` |
 | **🛠️ In Active Development / Local Demos** | `3` |
 | **🟡 Pending Verification** | `0` |
 | **Edge & Cloud Providers** | `Cloudflare Workers`, `Vercel`, `Custom Domain`, `Render`, `Cloud Run` |
