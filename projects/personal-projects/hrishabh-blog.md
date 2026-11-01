@@ -64,7 +64,7 @@ Modern developer blog featuring MDX syntax highlighting, reading time estimators
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-09-15 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-09-15 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

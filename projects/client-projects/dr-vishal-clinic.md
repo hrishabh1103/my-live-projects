@@ -64,7 +64,7 @@ End-to-end medical facility operations website built for a real-world healthcare
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-08-15 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-08-15 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

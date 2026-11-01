@@ -64,7 +64,7 @@ Comprehensive financial savings and cashback discovery platform designed to help
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-10-05 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-10-05 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

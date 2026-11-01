@@ -64,7 +64,7 @@ Modern travel curation application designed for authentic homestay discovery, bo
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-09-01 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-09-01 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

@@ -64,7 +64,7 @@ Intelligent security orchestration framework analyzing telemetry logs, attack ve
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-11-01 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-11-01 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

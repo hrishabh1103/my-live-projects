@@ -64,7 +64,7 @@ Multimodal conversational assistant equipped with offline Vosk speech-to-text, r
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-11-12 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-11-12 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

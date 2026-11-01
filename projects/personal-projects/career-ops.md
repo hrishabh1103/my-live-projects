@@ -64,7 +64,7 @@ High-throughput career tracking tool and LaTeX resume compiler orchestrated with
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-10-10 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-10-10 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

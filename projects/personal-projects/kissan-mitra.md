@@ -64,7 +64,7 @@ Multilingual agricultural support web application offering crop disease identifi
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-10-25 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-10-25 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

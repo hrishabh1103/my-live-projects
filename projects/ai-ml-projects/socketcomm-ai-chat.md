@@ -64,7 +64,7 @@ Ultra-low latency chat platform built with Flask-SocketIO and React. Features mu
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-11-18 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-11-18 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 

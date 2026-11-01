@@ -64,7 +64,7 @@ Modern, high-performance portfolio featuring Three.js 3D workstation scenes, int
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2024-05-20 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+| 2024-05-20 | 🟢 Live | HTTP 502 | Health verified via ProjectVault deployment monitor. |
 
 ---
 
