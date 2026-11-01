@@ -1,6 +1,6 @@
 # SocketComm AI Chat
 
-> Full-stack Python + React real-time messaging and file transmission tool powered by Flask-SocketIO.
+> Real-time WebSocket communication system with AI-augmented chat assistance and typing indicators.
 
 ---
 
@@ -8,37 +8,55 @@
 
 | Property | Value |
 | :--- | :--- |
-| **Project Name** | SocketComm AI Chat & File Sharing Tool |
-| **Project Category** | AI & Machine Learning Project / Networking |
+| **Project Name** | SocketComm AI Chat |
+| **Project Category** | AI & Machine Learning |
 | **Current Status** | 🟢 Live |
 | **Live Deployment URL** | [https://socketcommaichat.vercel.app/](https://socketcommaichat.vercel.app/) |
 | **GitHub Repository** | [hrishabh1103/SocketComm-AI-Chat](https://github.com/hrishabh1103/SocketComm-AI-Chat) |
-| **Hosting Platform** | Vercel (Frontend) · Render / Self-Hosted (WebSocket Backend) |
-| **Last Verified Date** | 2026-10-31 |
+| **Hosting Platform** | Vercel / Local |
+| **Last Verified Date** | 2024-11-18 |
 
 ---
 
 ## 📝 Detailed Description
 
-SocketComm is a full-stack real-time communication platform engineered for bi-directional messaging, file transfer, and connection monitoring:
-
-- **Bi-directional WebSockets:** Low-latency socket connections with fallback polling.
-- **File Sharing Pipeline:** Chunked binary file transmission directly through socket channels.
-- **User Presence Tracking:** Live indicator of active peers, typing indicators, and room status.
-- **Clean Responsive Client:** React + TypeScript UI styled with modern glassmorphism elements.
+Ultra-low latency chat platform built with Flask-SocketIO and React. Features multi-room messaging, active presence tracking, and contextual AI bot responses.
 
 ---
 
 ## 🛠️ Technology Stack & Architecture
 
 ### Frontend
-- **Framework:** React 18 (TypeScript)
-- **Networking:** Socket.io client
-- **Styling:** TailwindCSS
-- **Hosting:** Vercel
+- **Framework & Libraries:** React, TailwindCSS, Socket.IO
 
 ### Backend
-- **Framework:** Python, Flask, Flask-SocketIO, Eventlet / Gevent
+- **Runtime & Frameworks:** Python, Flask-SocketIO
+
+### Database & Storage
+- **Primary Database:** Redis
+
+### Third-Party APIs & Integrations
+- **Services & Models:** Hugging Face Hub
+
+---
+
+## 🚀 Deployment & Infrastructure Architecture
+
+```
+[User Browser]
+       │
+       ▼
+[Edge CDN / Host (Vercel / Local)]
+       │
+       ▼
+[Application Runtime]
+       │
+       ▼
+[Database / External APIs (Redis)]
+```
+
+- **Hosting Platform:** Vercel / Local
+- **Custom Domain:** `socketcommaichat.vercel.app`
 
 ---
 
@@ -46,4 +64,10 @@ SocketComm is a full-stack real-time communication platform engineered for bi-di
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2026-10-31 | 🟢 Live | 200 OK | Verified live endpoint at `https://socketcommaichat.vercel.app/` returning HTTP 200 OK. |
+| 2024-11-18 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+
+---
+
+## 📌 Important Deployment & Operational Notes
+
+Real-time WebSocket chat service.

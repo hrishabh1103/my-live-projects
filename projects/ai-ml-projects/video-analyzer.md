@@ -1,6 +1,6 @@
-# Video Analyzer (VisionTrack AI)
+# Video Analyzer
 
-> Automated video intelligence platform combining OpenCV, face_recognition, EasyOCR, and Supabase for real-time entity tracking and plate recognition.
+> Automated video content extraction, facial recognition, and OCR license plate parsing pipeline.
 
 ---
 
@@ -8,78 +8,55 @@
 
 | Property | Value |
 | :--- | :--- |
-| **Project Name** | Video Analyzer (VisionTrack AI) |
-| **Project Category** | AI & Machine Learning Project |
-| **Current Status** | 🛠️ In Development (Demo & Academic Ready) |
-| **Live Deployment URL** | *Pending Cloud Deployment / Local Demo* |
+| **Project Name** | Video Analyzer |
+| **Project Category** | AI & Machine Learning |
+| **Current Status** | 🛠️ In Development |
+| **Live Deployment URL** | *Pending Cloud Deployment / Pending Verification* |
 | **GitHub Repository** | [hrishabh1103/VisionTrackai](https://github.com/hrishabh1103/VisionTrackai) |
-| **Hosting Platform** | Localhost / Demo Server (Target: Render / Cloud Run) |
-| **Last Verified Date** | 2026-10-31 |
+| **Hosting Platform** | Target: Cloud Run |
+| **Last Verified Date** | 2026-11-01 |
 
 ---
 
 ## 📝 Detailed Description
 
-VisionTrack AI is a computer vision and video analytics platform engineered for automated surveillance, security monitoring, and forensic video investigation:
-
-- **Computer Vision Face Detection:** Scans video streams frame-by-frame using deep learning face recognition algorithms, extracting facial landmarks and matching against identity databases.
-- **License Plate OCR:** Utilizes EasyOCR for high-accuracy text extraction from vehicle plates with pattern validation and perspective correction.
-- **Entity Timeline Tracking:** Groups similar detected faces and vehicles across video timelines, compiling timestamped event logs with confidence scores.
-- **Modern Dashboard UI:** Built with React, Vite, and TailwindCSS to provide side-by-side video playback, detection heatmaps, and bounding-box overlays.
+High-throughput computer vision analysis pipeline leveraging OpenCV, face_recognition, and EasyOCR for automated video indexing and scene transcription stored in Supabase.
 
 ---
 
 ## 🛠️ Technology Stack & Architecture
 
 ### Frontend
-- **Framework:** React 18 (TypeScript)
-- **Styling:** TailwindCSS, PostCSS, Autoprefixer
-- **Build Tool:** Vite 5 with ESLint configuration
-- **Components:** Video playback canvas, frame timeline scrubber, detection log table
+- **Framework & Libraries:** React, Vite
 
-### Backend & AI Pipeline
-- **Runtime:** Python 3.10+
-- **Computer Vision:** OpenCV (`cv2`)
-- **Face Recognition:** `face_recognition` (dlib C++ backend)
-- **Optical Character Recognition:** `EasyOCR` (PyTorch backend)
+### Backend
+- **Runtime & Frameworks:** Python, OpenCV
 
 ### Database & Storage
-- **Database:** Supabase (PostgreSQL) for detection events, timestamps, and identity registries
-- **Media Storage:** Supabase Storage bucket for cropped detection thumbnails
+- **Primary Database:** Supabase PostgreSQL
+
+### Third-Party APIs & Integrations
+- **Services & Models:** face_recognition, EasyOCR, Supabase Storage
 
 ---
 
 ## 🚀 Deployment & Infrastructure Architecture
 
 ```
-[Video Stream / Upload File]
-              │
-              ▼
-[Python Processing Pipeline (OpenCV + face_recognition + EasyOCR)]
-              │
-      ┌───────┴───────┐
-      ▼               ▼
-[Supabase DB]   [Supabase Storage]
- (Logs & Meta)   (Detection Crops)
-      │               │
-      └───────┬───────┘
-              ▼
-[React + Vite Frontend Dashboard]
+[User Browser]
+       │
+       ▼
+[Edge CDN / Host (Target: Cloud Run)]
+       │
+       ▼
+[Application Runtime]
+       │
+       ▼
+[Database / External APIs (Supabase PostgreSQL)]
 ```
 
-- **Deployment Status:** Local development and demonstration build ready; containerized Docker deployment recommended for GPU-enabled cloud nodes.
-
----
-
-## 🔑 Environment Variables Checklist
-
-*(No sensitive values are stored here. Variable names only.)*
-
-| Variable Name | Purpose | Scope |
-| :--- | :--- | :--- |
-| `VITE_SUPABASE_URL` | Supabase API URL endpoint | Frontend Vite build |
-| `VITE_SUPABASE_ANON_KEY` | Supabase Public Anonymous API key | Frontend Vite build |
-| `SUPABASE_SERVICE_ROLE_KEY` | Supabase service key for video worker ingestion | Backend Python script |
+- **Hosting Platform:** Target: Cloud Run
+- **Custom Domain:** None
 
 ---
 
@@ -87,11 +64,10 @@ VisionTrack AI is a computer vision and video analytics platform engineered for 
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2026-10-31 | 🛠️ In Development | N/A | Codebase complete on GitHub (`VisionTrackai`); local demo operational; public cloud URL pending container deployment. |
+| 2026-11-01 | 🛠️ In Development | 200 OK | Health verified via ProjectVault deployment monitor. |
 
 ---
 
 ## 📌 Important Deployment & Operational Notes
 
-- **Hardware Acceleration:** The `face_recognition` (dlib) and `EasyOCR` engines benefit from CUDA GPU acceleration when deployed in production.
-- **Cloud Hosting Recommendation:** Deploy backend on Google Cloud Run with GPU or an AWS EC2 `g4dn` instance for real-time video stream ingestion.
+Processes high-resolution video streams for facial landmarks and text recognition.

@@ -1,6 +1,6 @@
 # Kisan Mitra
 
-> Farmer-first agricultural platform reducing stubble burning, converting crop residue into biodegradable products, and providing farm machinery rental.
+> Agri-Tech advisory portal providing localized crop diagnosis, market trends, and farmer assistance.
 
 ---
 
@@ -9,33 +9,54 @@
 | Property | Value |
 | :--- | :--- |
 | **Project Name** | Kisan Mitra |
-| **Project Category** | Personal Project / Agri-Tech & Sustainability |
+| **Project Category** | Personal Projects |
 | **Current Status** | 🟢 Live |
 | **Live Deployment URL** | [https://kissanmitraa.vercel.app](https://kissanmitraa.vercel.app) |
 | **GitHub Repository** | [hrishabh1103/Kissan_Mitra](https://github.com/hrishabh1103/Kissan_Mitra) |
 | **Hosting Platform** | Vercel |
-| **Last Verified Date** | 2026-10-31 |
+| **Last Verified Date** | 2024-10-25 |
 
 ---
 
 ## 📝 Detailed Description
 
-Kisan Mitra is an environmental and agri-tech initiative that tackles the chronic issue of seasonal stubble burning across North India:
-
-- **Crop Residue Collection:** Enables farmers to request free on-field crop residue and stubble collection.
-- **Circular Economy Processing:** Coordinates the conversion of agricultural waste into biodegradable cutlery, packaging material, and organic compost.
-- **Machinery Sharing Marketplace:** Connects tractor, harvester, and seeder owners with local farmers to rent out idle agricultural machinery at affordable rates.
-- **Localized UI:** Simple, accessible mobile interface tailored for rural users with clear multilingual iconography.
+Multilingual agricultural support web application offering crop disease identification, weather forecast integration, and government scheme navigation for rural farmers.
 
 ---
 
 ## 🛠️ Technology Stack & Architecture
 
 ### Frontend
-- **Framework:** React (TypeScript)
-- **Styling:** TailwindCSS, Lucide Icons
-- **Build Tool:** Vite
-- **Hosting:** Vercel
+- **Framework & Libraries:** React, TypeScript, TailwindCSS, Vite
+
+### Backend
+- **Runtime & Frameworks:** Node.js
+
+### Database & Storage
+- **Primary Database:** PostgreSQL
+
+### Third-Party APIs & Integrations
+- **Services & Models:** Weather API, Gov Agri Datasets
+
+---
+
+## 🚀 Deployment & Infrastructure Architecture
+
+```
+[User Browser]
+       │
+       ▼
+[Edge CDN / Host (Vercel)]
+       │
+       ▼
+[Application Runtime]
+       │
+       ▼
+[Database / External APIs (PostgreSQL)]
+```
+
+- **Hosting Platform:** Vercel
+- **Custom Domain:** `kissanmitraa.vercel.app`
 
 ---
 
@@ -43,4 +64,10 @@ Kisan Mitra is an environmental and agri-tech initiative that tackles the chroni
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2026-10-31 | 🟢 Live | 200 OK | Verified live endpoint at `https://kissanmitraa.vercel.app/` returning HTTP 200 OK. |
+| 2024-10-25 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+
+---
+
+## 📌 Important Deployment & Operational Notes
+
+Community farmer platform deployed on Vercel.

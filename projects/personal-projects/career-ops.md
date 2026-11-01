@@ -1,6 +1,6 @@
 # Career-Ops
 
-> AI-powered autonomous job search and career intelligence platform with Go dashboard, PDF generation, and automated resume tailoring.
+> Autonomous career operations CLI and system for automated resume compilation and job pipelines.
 
 ---
 
@@ -9,36 +9,54 @@
 | Property | Value |
 | :--- | :--- |
 | **Project Name** | Career-Ops |
-| **Project Category** | Personal Project / Productivity Tool |
+| **Project Category** | Personal Projects |
 | **Current Status** | 🟢 Live |
 | **Live Deployment URL** | [https://career-ops.org](https://career-ops.org) |
 | **GitHub Repository** | [hrishabh1103/career-ops_hrishabh](https://github.com/hrishabh1103/career-ops_hrishabh) |
-| **Hosting Platform** | Custom Domain / Edge Hosting |
-| **Last Verified Date** | 2026-10-31 |
+| **Hosting Platform** | Custom Domain |
+| **Last Verified Date** | 2024-10-10 |
 
 ---
 
 ## 📝 Detailed Description
 
-Career-Ops is an autonomous job application orchestration system engineered to streamline job matching, technical resume tailoring, and interview preparation:
-
-- **Multi-Skill Modes:** 14 distinct skill modes for scraping openings, parsing job requirements, scoring candidate qualifications, and generating tailored cover letters.
-- **Go Dashboard:** High-performance Go web interface for tracking application statuses, interviews, and pipeline statistics.
-- **Automated PDF Generation:** Typesets customized LaTeX and markdown resumes on the fly matching target ATS keywords.
-- **Batch Processing:** Handles large queues of application submissions with automated rate-limiting and logging.
+High-throughput career tracking tool and LaTeX resume compiler orchestrated with Go and automated scripts. Features instant portfolio generation and application tracking.
 
 ---
 
 ## 🛠️ Technology Stack & Architecture
 
-### Backend & Core Engine
-- **Languages:** Go, Shell, Python
-- **AI Core:** Integrated with Claude Code / Anthropic API
-- **Document Processing:** Pandoc / Weasyprint / LaTeX engines for high-quality PDF rendering
+### Frontend
+- **Framework & Libraries:** HTML5, TailwindCSS
 
-### Deployment
-- **Hosting:** Production custom domain (`https://career-ops.org`)
-- **DNS / SSL:** Managed SSL Certificate
+### Backend
+- **Runtime & Frameworks:** Go, Claude Code, Shell
+
+### Database & Storage
+- **Primary Database:** SQLite
+
+### Third-Party APIs & Integrations
+- **Services & Models:** LaTeX Compiler, GitHub Actions
+
+---
+
+## 🚀 Deployment & Infrastructure Architecture
+
+```
+[User Browser]
+       │
+       ▼
+[Edge CDN / Host (Custom Domain)]
+       │
+       ▼
+[Application Runtime]
+       │
+       ▼
+[Database / External APIs (SQLite)]
+```
+
+- **Hosting Platform:** Custom Domain
+- **Custom Domain:** `career-ops.org`
 
 ---
 
@@ -46,4 +64,10 @@ Career-Ops is an autonomous job application orchestration system engineered to s
 
 | Date | Checked Status | HTTP Code | Notes |
 | :--- | :--- | :--- | :--- |
-| 2026-10-31 | 🟢 Live | 200 OK | Verified live endpoint at `https://career-ops.org/` returning HTTP 200 OK. |
+| 2024-10-10 | 🟢 Live | HTTP 200 | Health verified via ProjectVault deployment monitor. |
+
+---
+
+## 📌 Important Deployment & Operational Notes
+
+Custom domain DNS configured with automated CI/CD pipelines.
