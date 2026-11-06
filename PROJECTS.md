@@ -8,8 +8,8 @@ Welcome to the central project registry of **Hrishabh Gupta** ([@hrishabh1103](h
 
 | Metric | Count |
 | :--- | :--- |
-| **Total Projects Documented** | 15 |
-| **🟢 Live & Verified Deployments** | 11 |
+| **Total Projects Documented** | 16 |
+| **🟢 Live & Verified Deployments** | 12 |
 | **🟡 Needs Verification** | 0 |
 | **🛠️ In Development / Local Demo** | 4 |
 | **Primary Cloud Hosts** | Vercel, Cloudflare Workers, Custom Domain, Render, Cloud Run |
@@ -48,6 +48,7 @@ Welcome to the central project registry of **Hrishabh Gupta** ([@hrishabh1103](h
 | **[Kautilyam / Zylar](projects/personal-projects/kautilyam.md)** | Personal Projects | [kautilyam.vercel.app](https://kautilyam.vercel.app) | [`Kautilyam`](https://github.com/hrishabh1103/Kautilyam) | Vercel | React, TypeScript, TailwindCSS | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) |
 | **[Kisan Mitra](projects/personal-projects/kissan-mitra.md)** | Personal Projects | [kissanmitraa.vercel.app](https://kissanmitraa.vercel.app) | [`Kissan_Mitra`](https://github.com/hrishabh1103/Kissan_Mitra) | Vercel | React, TypeScript, TailwindCSS | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) |
 | **[Hrishabh's Blog](projects/personal-projects/hrishabh-blog.md)** | Personal Projects | [hrishabhblog.vercel.app](https://hrishabhblog.vercel.app) | [`Hrishabh_Blog_site`](https://github.com/hrishabh1103/Hrishabh_Blog_site) | Vercel | Next.js, MDX, TailwindCSS | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) |
+| **[Hrishabh Project Vault Site](projects/personal-projects/hrishabh-project-vault-site.md)** | Personal Projects | [hrishabhprojects.vercel.app](https://hrishabhprojects.vercel.app/) | [`Project_site`](https://github.com/hrishabh1103/Project_site) | Cloudflare Workers | React, TypeScript, Tailwind CSS | ![Live](https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square) |
 | **[PQ_Migration Platform](projects/personal-projects/pq-migration-platform.md)** | Personal Projects | *Pending Cloud Deployment* | [`PQ_Migration`](https://github.com/hrishabh1103/PQ_Migration) | Pending | TypeScript, Tailwind CSS, React | ![In Dev](https://img.shields.io/badge/Status-In%20Development-blue?style=flat-square) |
 
 ---
