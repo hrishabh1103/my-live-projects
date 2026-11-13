@@ -1,4 +1,4 @@
-# 🌐 Centralized Live Projects Directory
+# 🌐 Centralized Live Projects Directory 
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24&height=200&section=header&text=My%20Live%20Projects%20Directory&fontSize=42&fontColor=ffffff&animation=fadeIn" alt="Header" width="100%" />
